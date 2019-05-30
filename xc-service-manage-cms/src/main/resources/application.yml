@@ -7,3 +7,13 @@ spring:
     mongodb:
       uri: mongodb://root:root@localhost:27017
       database: xc_cms
+  freemarker:
+    cache: false
+    settings:
+      template_update_delay: 0
+  rabbitmq:
+    password: guest
+    username: guest
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: /

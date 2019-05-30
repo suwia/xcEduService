@@ -16,8 +16,11 @@ import java.util.List;
 public class CmsConfig {
 
     @Id
+    //主键
     private String id;
+    //数据模型的名称
     private String name;
+    //数据模型项目
     private List<CmsConfigModel> model;
 
 }
